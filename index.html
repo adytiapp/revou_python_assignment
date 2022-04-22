@@ -36,11 +36,12 @@
 						
 						<h2>Project Summary</h2>
 						<ol>
-							<li>Imported and joined dataset from the source.</li>
+							<li>Imported and joined dataset from the source files.</li>
 							<li>Conducted data cleaning such as removing null values, removing outliers, removing irrelevant values, and feature engineering.</li>
 							<li>Conducted exploratory data analysis on the dataset and convey the important findings</li>
-							<li>Created customer segmentation using k-means clustering</li>
+							<li>Created user segmentation using k-means clustering</li>
 					  	</ol>
+						<br>
 
 						<h2>Insights</h2>
 						<ol>
@@ -53,100 +54,168 @@
 						<p><h2>Project Files</h2></p>
 						For a more comprehensive analysis and visualization, please open the project files.
 						<ul>
-						<li><a href="assets\hotel_booking_rev_final.pptx">Presentation Deck</a></li>
-						<li><a href="https://colab.research.google.com/drive/1fhlzLswWF8F9vxbDC_xoXxZSRNx6FQE6?usp=sharing">Python Notebook - Google Collab</a></li>
-						<li><a href="https://github.com/adytiapp/revou_python_assignment">Github Repository</a></li>
-					</ul>
+							<li><a href="assets\hotel_booking_rev_final.pptx">Presentation Deck</a></li>
+							<li><a href="https://colab.research.google.com/drive/1fhlzLswWF8F9vxbDC_xoXxZSRNx6FQE6?usp=sharing">Python Notebook - Google Collab</a></li>
+							<li><a href="https://github.com/adytiapp/revou_python_assignment">Github Repository</a></li>
+						</ul>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
 						<h2>Project Background</h2>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-5"><span class="image fit"><img src="images/cover_1.jpg"></span></div>
-						</div><br>
-						<p>Data visualization is useful for data cleaning, exploring data structure, detecting outliers and unusual groups, identifying trends and clusters, spotting local patterns, evaluating modeling output, and presenting results. It is essential for exploratory data analysis and data mining to check data quality and to help analysts become familiar with the structure and features of the data before them. To test our capability in data visualization, we need to visualize some data in the intermediate and advanced assignment. I am going to use tableau public as a main data visualization tools. Other than using tableau, I also use Google Data Studio.</p> 
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-5"><span class="image fit"><img src="images/python_assignment_cover.jpg"></span></div>
+							</div><br>
+							<p>Python is the most challenging yet also exciting data programming languages. In this assignment we practiced python skills such as data cleaning and exploratory data analysis using python code. Also, we practiced more advanced python skills such as user segmentation using cluster analysis.  We used Google Collab as a python notebook tools.</p>
+					</section>
 				
 				<!-- Three -->
 				<section id="three">
 					<h2>Data Scope, Goals & Objectives</h2>
-					<p>For intermediate assignment we used data from kaggle and provided by olist, brazilian e-commerce company <a href = "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">Customers Dataset</a>. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.</p>
-					<p>For advanced assignment we used data from kaggle provided by Singapore AirBnB listing  <a href = "https://www.kaggle.com/datasets/jojoker/singapore-airbnb">Listing</a>. The data was collected on 28 August 2019 according to the website. There is 7907 sample, but there is some missing data on some feature/variable.</p>
+						<p>For this assignment we used data from kaggle and provided by olist, brazilian e-commerce company <a href = "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">Customers Dataset</a>. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.</p>
 					<h3>Goals</h3>
-					<p>Our goal is to learn how to visualize data with consice meaning, using tableau and google data studio. We also learn how to create beautiful and interactive dashboards.</p>
+						<p>Gustavo just started an e-commerce startup based in Brazil that recently opened an online website to sell their product. Fortunately, Gustavo is launcing their website when the covid-19 hits and making them grow faster than ever. However, Gustavo is still not using targeted marketing which hurts their marketing budget as only a fraction of their user comes back to their website. Gustavo needs your help to increase their marketing conversion rate by doing more targeted marketing using customer segmentation so that it will not hurt their budget.</p>
 					<h3>Objectives</h3>
-					<ol>
-					<li>Exploratory data analysis of dataset given and visualizing the findings with appropriate chart and best practice to make the data storytelling as consice as possible.</li>
-					<li>Combining the visualization in dashboards. Solve client problem using dashboards to track their progress or KPI.</li>
-					</ol>
+						<ol>
+							<li>Conducting data cleaning using various methods so the result would be more accurate.</li>
+							<li>Exploratory data analysis of the dataset to help gustavo find the problem within his e-commerce company and to help gustavo make important decision.</li>
+							<li>Creating user segmentation using cluster analysis to help targeted marketing.</li>
+						</ol>
+					<br>
+				</section>	
 
 				<!-- Four -->
 				<section id="four">
 					<h2>Data Analysis</h2>
-						<h3>Intermediate Assignment</h3>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-7"><span class="image fit"><img src="images/intermediate_0.png"></span></div>
-						</div>
-						<br><p>From October 2016 – August 2018, the number of orders experienced an upward trend. The number of orders reached its peak in March 2018 with 347 orders.</p>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-9"><span class="image fit"><img src="images/intermediate_1.png"></span></div>
-						</div>
-						<br><p>Of the product categories that are in the top 10 based on the number of orders, Bed Bath Table ranks first with 452 orders, followed by Health Beauty in second place with 400 orders, and Sports Leisure in third place with 359 orders.</p>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-5"><span class="image fit"><img src="images/intermediate_2.png"></span></div>
-						</div>
-						<br><p>Of the customer states that are in the top 5 rankings based on the number of customers, SP (Sao Paolo) ranks first with 1,959 customers, followed by RJ (Rio de Janeiro) in second with 639 customers, and MG (Minas Gerais) in third with 523 customer.</p>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-5"><span class="image fit"><img src="images/intermediate_3.png"></span></div>
-						</div>
-						<br><p>In this visualization, sorting is used with a custom index at the deepest level. Sorting will order the top 3 Customer City and will repeat in each Customer State. Sorting is done based on the count of the unique Customer ID.</p>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-4"><span class="image fit"><img src="images/intermediate_4.png"></span></div>
-						</div>
-						<br><p>Segmenting is carried out on the Payment Value from the Order Payments Dataset. Price group is divided into 4, 0-50 (low), 51-100 (medium), 101-1.000 (high), and >= 1001 (very high). The price group with the highest demand is the high price group with a price range of 101-1.000 which has a total order of 2.385.</p>
+					<p>Note : only important steps shown to simplify the analysis explanation.</p>
+
+						<h3>Data Preparation & Cleaning</h3>
+						<p><b>Data Prep</b></p>
+						<script src="https://pastebin.com/embed_js/J7kk2020"></script>
+						<br><p>Python environment preparation by loading the necessary library.</p>
+
+						<p><b>Import Dataset</b></p>
+						<script src="https://pastebin.com/embed_js/QnkAGBng"></script>
+						<br><p>Imported dataset from google sheets using csv interpreter.</p>
+
+						<p><b>Handling Data</b></p>
+						<script src="https://pastebin.com/embed_js/pvEvqRHk"></script>
+						<br><p>Removed irrelevant features from the dataset.</p>
 						
-						<h3>Advanced Assignment</h3>
+						<script src="https://pastebin.com/embed_js/d1YgimRg"></script>
+						<br><p>Removed duplicate values from the dataset.</p>
+
+						<p><b>Feature Format</b></p>
+						<script src="https://pastebin.com/embed_js/ANSzbzPg"></script>
+						<br><p>Changed the feature format to datetime, this is necessary to analyze the data further.</p>
+
+						<p><b>Handling Outliers</b></p>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-6"><span class="image fit"><img src="images/advanced_1.png"></span></div>
-						</div>
-						<br><p>In this visualization, price data that has gone through the binning process is visualized, a histogram is made and it can be seen that the data is not evenly distributed, the histogram shows a positive skewness, and the most frequent price data are in the price range 40-80.</p>
+							<div class="col-5"><span class="image fit"><img src="images/cleaning_1.png"></span></div>
+						</div><br>
+						<script src="https://pastebin.com/embed_js/12u7tWNn"></script>
+						<br><p>Removed the outliers from the data to make analysis results more statistically significant.</p>
+
+						<p><b>Combining Data</b></p>
+						<script src="https://pastebin.com/embed_js/HGqdzryU"></script>
+						<br><p>Combined data using join function.</p>
+
+						<h3>Exploratory Data Analysis</h3>
+						<p><b>Evaluative descriptive statistics</b></p>
+						<script src="https://pastebin.com/embed_js/Pp7i97VZ"></script><br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-6"><span class="image fit"><img src="images/advanced_3.png"></span></div>
-						</div>
-						<br><p>It can be seen that from the neighborhood group visualization of the total listings divided by price category, Central Region is the neighborhood group with the most total listings.</p>
+							<div class="col-5"><span class="image fit"><img src="images/eda_1.png"></span></div>
+						</div><br>
+						<p>Numerical feature desciption using describe function in python.</p>
+
+						<script src="https://pastebin.com/embed_js/904x7L1s"></script><br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-6"><span class="image fit"><img src="images/advanced_4.png"></span></div>
-						</div>
-						<br><p>It can be seen that from the room type visualization of the total listings divided by price category, Private Room is the room type with the most total listings.</p>
+							<div class="col-8"><span class="image fit"><img src="images/eda_3.png"></span></div>
+						</div><br>
+						Actual Delivery Time
+						<p>The minimum actual delivery time value is -7 and the maximum is 28 which results in an actual delivery time range of 35. This value is quite large when compared to the average actual delivery time of 10.09. The mean > median > mode indicates a positive skew. The standard deviation of 6.06 Kurtosis 0.12 indicates the data is fairly distributed with the standard.</p>
+
+						Payment Sequential
+						<p>The minimum payment sequential value is 1 and the maximum is 29 which results in a sequential payment range of 28. This value is quite large when compared to the average sequential payment of 1.10. The mean > median > mode indicates a positive skew. The standard deviation of 0.74 Kurtosis 338.85 indicates peaked data compared to the normal distribution.</p>
+
+						Payment Installments
+						<p>The minimum payment installments value is 0 and the maximum is 24 which results in a payment installments range of 24. This value is quite large when compared to the average payment installments of 2.61. The mean > median > mode indicates a positive skew. The standard deviation of 2.44 Kurtosis 3.10 indicates peaked data compared to the normal distribution.</p>
+
+						Payment Value
+						<p>The minimum payment value is 0 and the maximum is 344.34 which results in a payment value time range of 344.34. This value is quite large when compared to the average payment value of 109.37. The mean > median > mode indicates a positive skew. The standard deviation of 72.53 Kurtosis 0.52 indicates that the data is fairly distributed with a standard.</p>
+
+						<script src="https://pastebin.com/embed_js/3TLG8dZA"></script><br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-4"><span class="image fit"><img src="images/advanced_5.png"></span></div>
-						</div>
-						<br><p>Based on their respective number of review last 12 Months. The most frequent room type reviewed is entire home/apt, followed by private room, hotel room, and last is shared room.</p>
+							<div class="col-7"><span class="image fit"><img src="images/eda_2.png"></span></div>
+						</div><br>
+						<p>Categorical feature desciption using describe function in python.</p>
+
+
+						<p><b>Number of orders per month</b></p>
+						<script src="https://pastebin.com/embed_js/Zn5GLJr8"></script><br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-6"><span class="image fit"><img src="images/advanced_6.png"></span></div>
-						</div>
-						<br><p>In this visualization, I plot the neighborhood based on longitude and latitude data. I choose to add coloring and size difference to provide more information in the visualization. The darker the color the more expensive the neighborhood is. The bigger the size, the more frequent neighborhood listed. The most expensive neighborhood is Tuas and overall most neighborhood located in Central Region.</p>
+							<div class="col-7"><span class="image fit"><img src="images/eda_4.png"></span></div>
+						</div><br>
+						<p>The graph shows a comparison between the number of orders vs the current month from October 2016 to August 2018. Over time the number of orders has increased until it reaches the highest number of orders in November 2017 of 6,581 orders. Then the number of orders decreased and increased until the last in August 2018 as many as 6,313 orders.</p>
+
+						<p><b>Daily orders trend</b></p>
+						<script src="https://pastebin.com/embed_js/4YGzYvFb"></script>
+						<br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-5"><span class="image fit"><img src="images/advanced_7.png"></span></div>
-						</div>
-						<br><p>From the chart, we can see that neighborhood with highest number of reviews is Geylang with 8.600 reviews, followed by Kallang with 6.200 reviews, and followed closely by Rochor with 6.100 reviews.</p>
+							<div class="col-7"><span class="image fit"><img src="images/eda_5.png"></span></div>
+						</div><br>
+						<p>The graph shows the comparison between the number of orders vs the day on which the order was made. This chart is made to see Daily Trends/peak days where buyers place orders. It can be concluded that the peak day is Tuesday, where the total number of orders reached 17660 orders.</p>
+
+						<p><b>Percentage of orders per payment type</b></p>
+						<script src="https://pastebin.com/embed_js/V3uqM5Dg"></script>
+						<br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-5"><span class="image fit"><img src="images/advanced_8.png"></span></div>
-						</div>
-						<br><p>From the chart, we can see that neighborhood with highest average price is Tuas with average price of $10,29K SGD, followed by Southern Island with average price of $1,59K SGD, and then Orchard with average price of $570,17 SGD.</p>
+							<div class="col-5"><span class="image fit"><img src="images/eda_6.png"></span></div>
+						</div><br>
+						<p>The graph shows the comparison between the number of orders vs. payment type. This graph is made to see what payment types are most often used by buyers. The most obtained were credit cards with a percentage of 73.21%, followed by boleto with a percentage of 19.33%, vouchers at 5.93%, and finally debit cards at 1.53%.</p>
+
+						<h3>User Segmentation</h3>
+						<p><b>Preparing the data for cluster analysis</b></p>
+						<script src="https://pastebin.com/embed_js/SJx5dJyb"></script>
+
+						<br><p><b>How many clusters? We used Elbow Method and Silhouette Analysis</b></p>
+						<script src="https://pastebin.com/embed_js/iTgqMxQw"></script><br>
 						<div class="row gtr-50 gtr-uniform">
-							<div class="col-5"><span class="image fit"><img src="images/advanced_9.png"></span></div>
+							<div class="col-5"><span class="image fit"><img src="images/cluster_1.png"></span></div>
+						</div><br>
+						<p>The elbow method show 4 clusters is the optimal cluster number.</p>
+						<script src="https://pastebin.com/embed_js/e4USKtwL"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/cluster_3.png"></span></div>
 						</div>
-						<br><p>In this visualization, I plot the name of listing based on Geodata (using calculated field by concatenate latitude and longitude field).  I choose to add coloring based on their respective neighborhood and size difference based on min price (using calculated field by multiplying price and min nights) to provide more information in the visualization. The bigger the size, the minimum price is higher. The most expensive listing is Corner Terrace located in Bedok with minimum price of $1.825.000 SGD.</p>
-				
-				
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-8"><span class="image fit"><img src="images/cluster_2.png"></span></div>
+						</div><br>
+						<p>The silhouette analysis also show 4 clusters is the optimal cluster number.</p>
+
+						<br><p><b>Creating cluster using K-Means</b></p>
+						<script src="https://pastebin.com/embed_js/PitJWQQB"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/cluster_4.png"></span></div>
+						</div><br>
+						<p>The K-Means clustering used because the data have more numerical features than categorical features.</p>
+						<ol>
+							<li>The distribution of data on each cluster quite good (no cluster with small count).</li>
+							<li>Cluster 0: prefer to pay with credit card with relatively normal amounts of payment value >> can be named: "Middle Class"</li>
+							<li>Cluster 1: prefer to pay with credit card (predominantly) with relatively huge amounts of payment value >> can be named: "The Real Sultans"</li>
+							<li>Cluster 2: prefer to pay with boleto (cash) with relatively normal amounts of payment >> can be named: "Boleto Lovers"</li>
+							<li>Cluster 3: prefer to pay with voucher & debit card (cash) with relatively small amounts of payment >> can be named: "Frugal Living"</li>
+						</ol>
+						<br>
+				</section>
+
 				<!-- Five -->
 				<section id="five">
-					<h2>Dashboards</h2>
-						<h3>Intermediate Assignment</h3>
-						<div class='tableauPlaceholder' id='viz1650623939423' style='position: relative'><noscript><a href='#'><img alt='Order Dataset Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Intermediate&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='W9W10_Adytia_Putra_Pradana_Intermediate&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Intermediate&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650623939423');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else { vizElement.style.width='100%';vizElement.style.height='1777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-						<br><h3>Advanced Assignment</h3>
-						<div class='tableauPlaceholder' id='viz1650624014329' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Advanced&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='W9W10_Adytia_Putra_Pradana_Advanced&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Advanced&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650624014329');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else { vizElement.style.width='100%';vizElement.style.height='2627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					<h2>Recommendation</h2>
+					<ol>
+							<li>The market predominantly populated with middle class, <b>using discount or promo would be helpful to boost sales.</b></li>
+							<li>The real sultans also have significant amount of population, and these people tend to be more loyal and come back to buy more. <b>Increasing benefit or creating customer loyalty program campaign </b> would be helpful to retain these customers since they are can be quite a money maker.</li>
+					</ol>
 
 		<!-- Footer -->
 			<footer id="footer">
