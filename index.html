@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hotel Booking Cancellation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>RevoU Python Assignment</strong>
+				</div>
+				<div class="inner">
+					<a href="https://adytiapp.github.io/adytia_uwak_portfolio/" class="button small">Home</a>
+					<a href="https://adytiapp.github.io/adytia_uwak_projects.html" class="button small">Projects</a>
+					<a href="https://adytiapp.github.io/adytia_uwak_articles.html" class="button small">Articles</a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>RevoU Python Assignment</h1>
+						</header>
+						
+						<h2>Project Summary</h2>
+						<ol>
+							<li>Imported and joined dataset from the source.</li>
+							<li>Conducted data cleaning such as removing null values, removing outliers, removing irrelevant values, and feature engineering.</li>
+							<li>Conducted exploratory data analysis on the dataset and convey the important findings</li>
+							<li>Created customer segmentation using k-means clustering</li>
+					  	</ol>
+
+						<h2>Insights</h2>
+						<ol>
+							<li>As time goes by the number of orders is increasing until it reaches the highest number of orders in November 2017 of 6,581 orders. Then the number of orders decreased and increased until the last in August 2018 as many as 6,313 orders.</li>
+							<li>It can be concluded that the peak day is Tuesday, where the total number of orders reached 17660 orders.</li>
+							<li>The most obtained were credit cards with a percentage of 73.21%, followed by boleto with a percentage of 19.33%, vouchers at 5.93%, and finally debit cards at 1.53%.</li>
+							<li>Obtained 4 clusters based on elbow method and silhouette analysis.</li>
+					  	</ol>
+						
+						<p><h2>Project Files</h2></p>
+						For a more comprehensive analysis and visualization, please open the project files.
+						<ul>
+						<li><a href="assets\hotel_booking_rev_final.pptx">Presentation Deck</a></li>
+						<li><a href="https://colab.research.google.com/drive/1fhlzLswWF8F9vxbDC_xoXxZSRNx6FQE6?usp=sharing">Python Notebook - Google Collab</a></li>
+						<li><a href="https://github.com/adytiapp/revou_python_assignment">Github Repository</a></li>
+					</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Project Background</h2>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/cover_1.jpg"></span></div>
+						</div><br>
+						<p>Data visualization is useful for data cleaning, exploring data structure, detecting outliers and unusual groups, identifying trends and clusters, spotting local patterns, evaluating modeling output, and presenting results. It is essential for exploratory data analysis and data mining to check data quality and to help analysts become familiar with the structure and features of the data before them. To test our capability in data visualization, we need to visualize some data in the intermediate and advanced assignment. I am going to use tableau public as a main data visualization tools. Other than using tableau, I also use Google Data Studio.</p> 
+				
+				<!-- Three -->
+				<section id="three">
+					<h2>Data Scope, Goals & Objectives</h2>
+					<p>For intermediate assignment we used data from kaggle and provided by olist, brazilian e-commerce company <a href = "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">Customers Dataset</a>. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.</p>
+					<p>For advanced assignment we used data from kaggle provided by Singapore AirBnB listing  <a href = "https://www.kaggle.com/datasets/jojoker/singapore-airbnb">Listing</a>. The data was collected on 28 August 2019 according to the website. There is 7907 sample, but there is some missing data on some feature/variable.</p>
+					<h3>Goals</h3>
+					<p>Our goal is to learn how to visualize data with consice meaning, using tableau and google data studio. We also learn how to create beautiful and interactive dashboards.</p>
+					<h3>Objectives</h3>
+					<ol>
+					<li>Exploratory data analysis of dataset given and visualizing the findings with appropriate chart and best practice to make the data storytelling as consice as possible.</li>
+					<li>Combining the visualization in dashboards. Solve client problem using dashboards to track their progress or KPI.</li>
+					</ol>
+
+				<!-- Four -->
+				<section id="four">
+					<h2>Data Analysis</h2>
+						<h3>Intermediate Assignment</h3>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-7"><span class="image fit"><img src="images/intermediate_0.png"></span></div>
+						</div>
+						<br><p>From October 2016 – August 2018, the number of orders experienced an upward trend. The number of orders reached its peak in March 2018 with 347 orders.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-9"><span class="image fit"><img src="images/intermediate_1.png"></span></div>
+						</div>
+						<br><p>Of the product categories that are in the top 10 based on the number of orders, Bed Bath Table ranks first with 452 orders, followed by Health Beauty in second place with 400 orders, and Sports Leisure in third place with 359 orders.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/intermediate_2.png"></span></div>
+						</div>
+						<br><p>Of the customer states that are in the top 5 rankings based on the number of customers, SP (Sao Paolo) ranks first with 1,959 customers, followed by RJ (Rio de Janeiro) in second with 639 customers, and MG (Minas Gerais) in third with 523 customer.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/intermediate_3.png"></span></div>
+						</div>
+						<br><p>In this visualization, sorting is used with a custom index at the deepest level. Sorting will order the top 3 Customer City and will repeat in each Customer State. Sorting is done based on the count of the unique Customer ID.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/intermediate_4.png"></span></div>
+						</div>
+						<br><p>Segmenting is carried out on the Payment Value from the Order Payments Dataset. Price group is divided into 4, 0-50 (low), 51-100 (medium), 101-1.000 (high), and >= 1001 (very high). The price group with the highest demand is the high price group with a price range of 101-1.000 which has a total order of 2.385.</p>
+						
+						<h3>Advanced Assignment</h3>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/advanced_1.png"></span></div>
+						</div>
+						<br><p>In this visualization, price data that has gone through the binning process is visualized, a histogram is made and it can be seen that the data is not evenly distributed, the histogram shows a positive skewness, and the most frequent price data are in the price range 40-80.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/advanced_3.png"></span></div>
+						</div>
+						<br><p>It can be seen that from the neighborhood group visualization of the total listings divided by price category, Central Region is the neighborhood group with the most total listings.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/advanced_4.png"></span></div>
+						</div>
+						<br><p>It can be seen that from the room type visualization of the total listings divided by price category, Private Room is the room type with the most total listings.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/advanced_5.png"></span></div>
+						</div>
+						<br><p>Based on their respective number of review last 12 Months. The most frequent room type reviewed is entire home/apt, followed by private room, hotel room, and last is shared room.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/advanced_6.png"></span></div>
+						</div>
+						<br><p>In this visualization, I plot the neighborhood based on longitude and latitude data. I choose to add coloring and size difference to provide more information in the visualization. The darker the color the more expensive the neighborhood is. The bigger the size, the more frequent neighborhood listed. The most expensive neighborhood is Tuas and overall most neighborhood located in Central Region.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/advanced_7.png"></span></div>
+						</div>
+						<br><p>From the chart, we can see that neighborhood with highest number of reviews is Geylang with 8.600 reviews, followed by Kallang with 6.200 reviews, and followed closely by Rochor with 6.100 reviews.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/advanced_8.png"></span></div>
+						</div>
+						<br><p>From the chart, we can see that neighborhood with highest average price is Tuas with average price of $10,29K SGD, followed by Southern Island with average price of $1,59K SGD, and then Orchard with average price of $570,17 SGD.</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/advanced_9.png"></span></div>
+						</div>
+						<br><p>In this visualization, I plot the name of listing based on Geodata (using calculated field by concatenate latitude and longitude field).  I choose to add coloring based on their respective neighborhood and size difference based on min price (using calculated field by multiplying price and min nights) to provide more information in the visualization. The bigger the size, the minimum price is higher. The most expensive listing is Corner Terrace located in Bedok with minimum price of $1.825.000 SGD.</p>
+				
+				
+				<!-- Five -->
+				<section id="five">
+					<h2>Dashboards</h2>
+						<h3>Intermediate Assignment</h3>
+						<div class='tableauPlaceholder' id='viz1650623939423' style='position: relative'><noscript><a href='#'><img alt='Order Dataset Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Intermediate&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='W9W10_Adytia_Putra_Pradana_Intermediate&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Intermediate&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650623939423');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else { vizElement.style.width='100%';vizElement.style.height='1777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+						<br><h3>Advanced Assignment</h3>
+						<div class='tableauPlaceholder' id='viz1650624014329' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Advanced&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='W9W10_Adytia_Putra_Pradana_Advanced&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;W9&#47;W9W10_Adytia_Putra_Pradana_Advanced&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650624014329');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} else { vizElement.style.width='100%';vizElement.style.height='2627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/adytia-putra-pradana-4b9493152/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/adytiapp/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.instagram.com/adytiapp/" class="icon brands fa-instagram"><span class="label">Dribbble</span></a></li>
+						<li><a href="mailto:adytiapp@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Adytia Uwak</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
